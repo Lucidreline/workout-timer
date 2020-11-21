@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+
+// fonts
+$mainFont: 'Titillium Web';
+
+// colors
+$backgroundColor: #1f1f1f;
+$mainLightColor: #ffebee;
+$mainAccentColor: #f44336;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: $mainLightColor;
+}
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: $mainFont, Roboto, sans-serif;
+  background-color: $backgroundColor;
+  font-size: 62.5%;
+}
+
+li,
+button,
+label,
+input,
+p {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 4.5rem;
+}
+h3 {
+  font-size: 2.7rem;
+  font-weight: normal;
+}
+h4,
+h5 {
+  font-size: 2.5rem;
+}
+a {
+  color: $mainLightColor;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
